@@ -2,7 +2,7 @@
 use rocket::serde::json::Json;
 use serde::Serialize;
 use rand::Rng;
-use crate::models::Post
+use crate::models::Post;
 
 #[get("/")]
 pub fn index() -> &'static str {
